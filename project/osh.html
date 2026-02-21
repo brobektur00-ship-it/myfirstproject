@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Красота Оша</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+header {
+  background: linear-gradient(to right, #8B0000, #ff7b00);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  color: #8B0000;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+      <a class="gl" href="project.html">⌂ Главная</a>
+  <style>
+.gl {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 100;
+  background-color: rgba(0, 0, 139, 0.726);
+  border-radius: 20px;
+    padding: 10px 15px;
+
+}
+.gl:hover {
+  color: #004df4;
+  background-color: rgba(126, 11, 11, 0.377);
+}
+</style>
+  <h1>Красивые места Оша</h1>
+  <p>Жемчужина юга Кыргызстана</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <img src="too.jpg" alt="Сулайман-Тоо">
+    <div class="card-content">
+      <h3>Сулайман-Тоо</h3>
+      <p>Священная гора и символ города Ош. Включена в список наследия ЮНЕСКО.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="vidosh.jpg" alt="Вид на Ош">
+    <div class="card-content">
+      <h3>Панорама города</h3>
+      <p>Невероятный вид на город с высоты горы особенно красив на закате.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="bazaar.jpg" alt="Ошский базар">
+    <div class="card-content">
+      <h3>Ошский базар</h3>
+      <p>Один из самых древних рынков Центральной Азии с яркой атмосферой.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Красота города Ош
+</footer>
+
+</body>
+</html>

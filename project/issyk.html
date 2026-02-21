@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Красота Иссык-Куля</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef6ff;
+}
+
+header {
+  background: linear-gradient(to right, #005bea, #00c6fb);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px 20px;
+}
+
+.card {
+  background: white;
+  width: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  color: #005bea;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #003366;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+
+<header>  <a class="gl" href="project.html">⌂ Главная</a>
+  <style>
+.gl {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 100;
+  background-color: rgba(0, 0, 139, 0.726);
+  border-radius: 20px;
+    padding: 10px 15px;
+
+}
+.gl:hover {
+  color: #004df4;
+  background-color: rgba(126, 11, 11, 0.377);
+}
+</style>
+  <h1>Красота Иссык-Куля</h1>
+  <p>Жемчужина Кыргызстана</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <img src="ozero.jpg" alt="Иссык-Куль">
+    <div class="card-content">
+      <h3>Озеро Иссык-Куль</h3>
+      <p>Второе по величине горное озеро в мире. Чистая вода и потрясающие виды.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="ushel.jpg" alt="Григорьевское ущелье">
+    <div class="card-content">
+      <h3>Григорьевское ущелье</h3>
+      <p>Живописные горы, зелёные луга и кристально чистые реки.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="skazka.webp" alt="Каньон Сказка">
+    <div class="card-content">
+      <h3>Каньон Сказка</h3>
+      <p>Удивительные красные скалы причудливой формы рядом с озером.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Красота Иссык-Куля
+</footer>
+
+</body>
+</html>
